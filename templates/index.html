@@ -32,14 +32,13 @@
 	</h1>
 	
 	<button id = 'LED1On' type="button" onclick="LED1_On();">
-
+                document.getElementById('LED1On').onclick=document.setElementByTd('sensor').innerHTML='LED ON'
 		LED1 ON!
-		document.getElementByTd('sensor').innerHTML='LED ON'
+		
 	</button>
 
 	<button id = 'LED1Off' type="button" onclick="LED1_Off();">
 		LED1_OFF!
-		document.getElementByTd('sensor').innerHTML='LED OFF'
 	</button>
 
 	
